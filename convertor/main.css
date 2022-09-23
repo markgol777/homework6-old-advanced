@@ -1,0 +1,62 @@
+body {
+    font-family: fantasy;
+}
+
+.convert1, .convert2, .convert1-hiden, .convert2-hiden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convert3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convert3-hiden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EUR-INPUT1, .convert1-EUR-INPUT2, .convert1-hiden-EUR-INPUT3, .convert1-hiden-EUR-INPUT4, .USD-INPUT1, .convert2-USD-INPUT2, .convert2-hiden-USD-INPUT3, .convert2-hiden-USD-INPUT4, .RUR-INPUT1, .convert3-RUR-INPUT2, .convert3-hiden-RUR-INPUT3, .convert3-hiden-RUR-INPUT4, .convert2-RUR-INPUT2 {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+.convert2  {
+    margin-top: 100px;
+}
+
+.btn-change1, .btn-change2, .btn-change1-back, .btn-change2-back, .btn-change3, .btn-change3-back {
+    margin-right: 20px;
+}
+
+.convert1-hiden, .convert2-hiden, .convert3-hiden {
+    display: none;
+}
+
+.convert2-hiden, .convert3-hiden, .convert3 {
+    margin-top: 100px;
+}
+
+.convert-btn1, .convert-btn2, .convert-btn3, .convert-btn4 {
+    margin-right: 20px;
+}
+
+.input5 {
+    width: 100px;
+}
+
+.credits {
+    position: absolute;
+    right: 250px;
+    bottom: 200px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
